@@ -13,3 +13,8 @@ if __name__ == "__main__":
     print(add(5, 3))
     print(subtract(5, 3))
 
+from calculator import multiply
+
+
+def test_multiply():
+    assert multiply(5, 3) == 15
